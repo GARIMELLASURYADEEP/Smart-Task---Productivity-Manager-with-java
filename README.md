@@ -1,12 +1,18 @@
 # Smart Task & Productivity Manager
 
-A beginner-friendly **full stack web application** built with **Core Java**, **JDBC**, **SQLite**, **HTML**, **CSS**, **JavaScript**, and **Bootstrap**.
-
-Perfect for fresher resumes, college projects, and technical interviews.
+**TaskFlow** is a modern full stack productivity and task management web application that helps users organize, track, and manage daily tasks through an interactive dashboard. Built with **Core Java**, **JDBC**, **SQLite**, **HTML**, **CSS**, **JavaScript**, and **Bootstrap** — ideal for fresher resumes, college projects, and technical interviews.
 
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![SQLite](https://img.shields.io/badge/SQLite-3-blue)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
+
+---
+
+## About the Project
+
+The platform allows users to create, update, delete, prioritize, and monitor tasks while improving productivity through visual analytics and task completion tracking. Users can organize tasks based on priority levels, due dates, and completion status.
+
+The system includes secure user authentication (login/signup), a responsive dashboard with productivity insights, search and filtering, and **Day Theme / Night Theme** modes with smooth transitions.
 
 ---
 
@@ -39,7 +45,7 @@ Perfect for fresher resumes, college projects, and technical interviews.
 ## Project Structure
 
 ```
-smart-task-manager/
+Smart-Task---Productivity-Manager-with-java/
 ├── backend/
 │   ├── src/com/smarttask/
 │   │   ├── MainServer.java          # Server entry point
@@ -56,7 +62,7 @@ smart-task-manager/
 │   ├── login.html, signup.html
 │   ├── dashboard.html, tasks.html, analytics.html
 │   ├── css/style.css
-│   └── js/                          # API, auth, dashboard, tasks, analytics
+│   └── js/                          # API, auth, dashboard, tasks, analytics, theme
 ├── docs/
 │   └── INTERVIEW_GUIDE.md
 ├── run.bat                          # Windows quick start
@@ -78,7 +84,7 @@ smart-task-manager/
 
 ### Option 1: Double-click (Windows)
 
-1. Open project folder in VS Code
+1. Clone the repository and open the project folder in VS Code
 2. Double-click `run.bat`
 3. Open browser: **http://localhost:8080**
 
@@ -86,7 +92,7 @@ smart-task-manager/
 
 ```bash
 # 1. Go to project root
-cd smart-task-manager
+cd Smart-Task---Productivity-Manager-with-java
 
 # 2. Compile (Windows)
 javac -d backend/out -cp backend/lib/sqlite-jdbc.jar backend/src/com/smarttask/model/*.java backend/src/com/smarttask/db/*.java backend/src/com/smarttask/util/*.java backend/src/com/smarttask/dao/*.java backend/src/com/smarttask/handler/*.java backend/src/com/smarttask/MainServer.java
@@ -110,9 +116,9 @@ java -cp "backend/lib/sqlite-jdbc.jar:backend/out" com.smarttask.MainServer
 ## VS Code Setup
 
 1. Install extension: **Extension Pack for Java**
-2. Open folder: `cursorjava` (project root)
+2. Open the cloned project folder
 3. Run from terminal using commands above
-4. Use **Live Preview** or open `http://localhost:8080/login.html`
+4. Open `http://localhost:8080/login.html`
 
 > **Important:** Always run the server from the **project root** folder so database and frontend paths work correctly.
 
@@ -153,12 +159,13 @@ Database file: `backend/database/tasks.db` (created automatically)
 3. Tasks page with filters and task cards
 4. Analytics page with 3 Chart.js charts
 5. Add/Edit task modal
+6. Day theme vs Night theme toggle
 
 ---
 
 ## Resume Project Description
 
-> Developed a full stack Smart Task & Productivity Manager using Core Java and JDBC with SQLite. Built REST-style APIs using Java HttpServer, implemented user authentication with session cookies and password hashing, and created a responsive dashboard with HTML, CSS, JavaScript, Bootstrap, and Chart.js for task analytics.
+> Developed a full stack Smart Task & Productivity Manager (TaskFlow) using Core Java and JDBC with SQLite. Built REST-style APIs using Java HttpServer, implemented user authentication with session cookies and password hashing, and created a responsive dashboard with HTML, CSS, JavaScript, Bootstrap, and Chart.js for task analytics with day/night theme support.
 
 ---
 
@@ -175,7 +182,7 @@ See **[docs/INTERVIEW_GUIDE.md](docs/INTERVIEW_GUIDE.md)** for:
 
 ## Author
 
-Fresher / Student Full Stack Project – suitable for portfolio and campus placements.
+**GARIMELLASURYADEEP** – Fresher / Student Full Stack Project for portfolio and campus placements.
 
 ---
 
