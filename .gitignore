@@ -1,0 +1,14 @@
+# Compiled Java classes
+backend/out/
+
+# SQLite database (optional - remove line if you want to commit empty db)
+backend/database/tasks.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
